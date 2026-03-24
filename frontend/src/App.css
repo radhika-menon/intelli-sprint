@@ -70,6 +70,31 @@
   }
 }
 
+#header {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  .icon {
+    margin-bottom: 8px;
+    width:11px;
+    height: 11px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 #next-steps {
   display: flex;
   border-top: 1px solid var(--border);
