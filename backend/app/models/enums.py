@@ -11,7 +11,7 @@ class WeekDay(str, Enum):
 
 class ActivityStatus(str, Enum):
     planned = "Planned"
-    in_progress = "In Progress"
+    in_progress = "In progress"
     achieved = "Achieved"
     on_hold = "On hold"
     dropped = "Dropped"
