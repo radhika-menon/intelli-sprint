@@ -1,11 +1,9 @@
+from datetime import date
 from app.db.base import Base
-from app.db.session import engine
-from app.models import activity, sprint_week, sprint_activity
 from app.models.activity import Activity
 from app.models.sprint_week import SprintWeek
 from app.models.sprint_activity import SprintActivity
 from app.models.enums import WeekDay, ActivityStatus
-from datetime import date
 
 # Test to ensure that the database tables are created correctly based on the SQLAlchemy models
 # defined in Base.
