@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"; // adjust if using dedicated CSS module for header
+import "../App.css";
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
         </svg>
         <h3>IntelliSprint</h3>
       </div>
-        
+
     </section>
   );
 }
