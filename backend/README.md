@@ -106,6 +106,7 @@ time_entries
 - start_time
 - end_time
 - duration
+
 ### Analytics
 
 Time spent per activity
