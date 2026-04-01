@@ -1,7 +1,7 @@
-# Intelli Sprint – Backend Design
+# SprintAWeek – Backend Design
 ## Overview
 
-This document describes the database design and backend structure for the Intelli Sprint application.
+This document describes the database design and backend structure for the SprintAWeek application.
 
 The backend is responsible for managing:
 

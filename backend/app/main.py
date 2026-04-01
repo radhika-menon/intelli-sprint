@@ -30,4 +30,4 @@ app.include_router(sprint_activity.router)
 
 @app.get("/")
 def root():
-    return {"message": "Intelli Sprint API running"}
+    return {"message": "SprintAWeek API running"}

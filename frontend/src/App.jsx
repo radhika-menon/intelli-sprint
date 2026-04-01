@@ -78,8 +78,15 @@ function App() {
       <div className="ticks"></div>
 
       <section id="next-steps">
-        <Stats />
-        <Timer />
+        <div id="docs">
+          <h2>Stats (upcoming feature)</h2>
+          <p>Insights about your sprints will be displayed here</p>
+        </div>
+        <div id="social">
+          <h2>Timer (in progress)</h2>
+          <p>An active timer will be displayed when you start tracking an activity</p>
+
+        </div>
       </section>
       <div className="ticks"></div>
       <section id="spacer"></section>
@@ -92,14 +99,7 @@ function App() {
           <h1>Planned Sprint</h1>
           <div style={{ display: "flex", gap: "20px" }}>
 
-            {/* LEFT: Activities */}
-            <div>
-              <h2>Activities</h2>
-              <ActivityForm onCreate={handleCreateActivity} />
-              <ActivityList activities={activities} />
-            </div>
-
-            {/* MIDDLE: Sprint Weeks */}
+            {/* LEFT: Sprint Weeks */}
             <div>
               <h2>Sprint Weeks</h2>
               <SprintWeekForm onCreate={handleCreateSprint} />
@@ -107,6 +107,13 @@ function App() {
                 sprintWeeks={sprintWeeks}
                 onSelect={setSelectedSprint}
               />
+            </div>
+
+            {/* MIDDLE: Activities */}
+            <div>
+              <h2>Activities</h2>
+              <ActivityForm onCreate={handleCreateActivity} />
+              <ActivityList activities={activities} />
             </div>
 
             {/* RIGHT: Sprint Planner */}
@@ -140,17 +147,16 @@ function App() {
 
       <section id="next-steps">
         <div id="docs">
-          <h2>Motivate Me!</h2>
+          <h2>Time Capsule</h2>
+          <p>This feature is in the making</p>
           <form>
             <input type="text" placeholder="Enter a message to motivate yourself" />
             <button type="submit">Submit</button>
           </form>
         </div>
         <div id="social">
-
-          <h2>Time Capsule</h2>
-          <p>This feature is in progress</p>
-
+          <h2>Motivation Corner</h2>
+          <p>Stay tuned for this feature!</p>
         </div>
       </section>
 

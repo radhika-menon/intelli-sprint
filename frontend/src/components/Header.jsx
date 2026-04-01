@@ -8,7 +8,7 @@ function Header() {
         <svg className="icon" role="presentation" aria-hidden="true">
           <use href="/icons.svg#documentation-icon"></use>
         </svg>
-        <h3>IntelliSprint</h3>
+        <h3>SprintAWeek</h3>
       </div>
 
     </section>

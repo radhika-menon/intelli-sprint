@@ -2,13 +2,13 @@
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
 ![Status](https://img.shields.io/badge/status-In%20progress-yellow)
 
-# Intelli Sprint
+# SprintAWeek
 
-A full-stack web application for personal sprint planning, time tracking, and productivity analytics.
+A full-stack web application for personal sprint planning, time tracking, productivity analytics and a motivation corner.
 
 ## Overview
 
-Intelli Sprint is designed to help users manage their personal weekly sprints, track time spent on tasks, and gain insights into productivity. A "time capsule" feature will allow users to send notes to themselves, which will be randomly displayed several days later to motivate themselves.
+SprintAWeek is designed to help users manage their personal weekly sprints, track time spent on tasks, and gain insights into productivity. A "time capsule" feature will allow users to send notes to themselves, which will be displayed in the "motivation corner" at a random day in the near future. The app is designed targeting university students and academics, but it would suit anyone working autonomously with a flexible schedule who wants to keep track of their activities and efficiency.
 
 The application follows a modern full-stack architecture with a **React frontend (JavaScript)** and a **FastAPI backend (Python)**, designed for scalability and clean separation of concerns. The UI is desgined to be minimalistic to allow users to plan their sprints within minutes and easily keep track of their progress during the week.
 
@@ -28,7 +28,7 @@ The application follows a modern full-stack architecture with a **React frontend
 * **Backend (FastAPI, SQLAlchemy)**: Handles business logic, APIs, and data processing.
 * **Database (SQLite)**: Stores tasks, time entries, sprint data and time capsule notes.
 
-## Data Flow
+### Data Flow
 
 1. User interacts with the React frontend
 2. Frontend sends HTTP requests to FastAPI endpoints
