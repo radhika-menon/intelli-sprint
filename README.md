@@ -24,34 +24,17 @@ The application follows a modern full-stack architecture with a **React frontend
 
 ### Components
 
-#### Frontend (React + Vite)
-User interface for managing tasks, running timers, and viewing analytics.
-
-#### Backend (FastAPI)
-Handles business logic, APIs, and data processing.
-
-#### Database (PostgreSQL) (planned)
-Stores tasks, time entries, and sprint data.
+* **Frontend (React + Vite)**: User interface for managing tasks, running timers, and viewing analytics.
+* **Backend (FastAPI, SQLAlchemy)**: Handles business logic, APIs, and data processing.
+* **Database (SQLite)**: Stores tasks, time entries, sprint data and time capsule notes.
 
 ## Data Flow
 
 1. User interacts with the React frontend
-
 2. Frontend sends HTTP requests to FastAPI endpoints
-
 3. Backend processes task, timer, and analytics logic
-
 4. Data is stored/retrieved from the database
-
 5. Results are returned and rendered in the UI
-
-## Project Structure
-
-intelli-sprint/
-├── frontend/        # React (Vite)
-├── backend/         # FastAPI
-├── docs/            # Architecture diagrams
-└── README.md
 
 ## Tech Stack
 
